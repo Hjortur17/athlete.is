@@ -19,7 +19,7 @@ export default function Home() {
       <div className="grid gap-6 text-center lg:grid-cols-3 w-full max-w-screen-xl mx-auto pb-12">
         <a
           href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-          className="group text-left rounded-lg border-2 border-transparent px-5 py-4 transition-colors bg-green-300 text-neutral-900 hover:border-green-600 hover:bg-green-200 "
+          className="group text-left rounded-lg border-2 border-transparent px-5 py-4 transition-colors hover:border-neutral-600 bg-neutral-200/60"
           target="_blank"
           rel="noopener noreferrer"
         >
