@@ -5,18 +5,18 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
   return (
     <main
-      className={`flex min-h-screen flex-col items-center text-neutral-900 justify-between p-6 xl:p-24 ${inter.className} bg-neutral-50`}
+      className={`flex min-h-screen flex-col items-center text-neutral-900 px-6 xl:px-0 justify-between ${inter.className} bg-neutral-50`}
     >
-      <div className="w-full max-w-screen-xl mx-auto">
+      <div className="w-full max-w-screen-xl mx-auto pt-12">
         <h1 className="text-xl xl:text-2xl 2xl:text-3xl font-extrabold">Athlete.is</h1>
       </div>
 
-      <div className="relative max-w-3xl mx-auto text-center space-y-6 mt-24 xl:mt-24">
+      <div className="relative max-w-3xl mx-auto text-center space-y-6 my-12 md:my-24 xl:my-0">
         <h2 className='text-5xl xl:text-6xl 2xl:text-7xl font-black'>Byrjaðu í dag að ná betri árángri!</h2>
         <p className='text-2xl 2xl:text-3xl font-light'>Við hjálpum þér að ná lengra <br /> í átt að þínum markmiðum</p>
       </div>
 
-      <div className="mt-24 xl:mt-0 xl:mb-16 grid gap-6 text-center lg:grid-cols-3 w-full max-w-screen-xl mx-auto">
+      <div className="grid gap-6 text-center lg:grid-cols-3 w-full max-w-screen-xl mx-auto pb-12">
         <a
           href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
           className="group text-left rounded-lg border-2 border-transparent px-5 py-4 transition-colors bg-green-300 text-neutral-900 hover:border-green-600 hover:bg-green-200 "
