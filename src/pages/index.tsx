@@ -75,7 +75,7 @@ export default function Home() {
 
         <a
           href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-          className="group text-left rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-neutral-600 bg-neutral-200/60"
+          className="group text-left rounded-lg border-2 border-transparent px-5 py-4 transition-colors hover:border-neutral-600 bg-neutral-200/60"
           target="_blank"
           rel="noopener noreferrer"
         >
