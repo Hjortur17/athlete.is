@@ -50,7 +50,7 @@ export default function Home() {
 
         <a
           href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-          className="group text-left rounded-lg border-2 border-transparent px-5 py-4 transition-colors bg-purple-300 text-neutral-900 hover:border-purple-600 hover:bg-purple-200"
+          className="group text-left rounded-lg border-2 border-transparent px-5 py-4 transition-colors hover:border-neutral-600 bg-neutral-200/60"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -75,7 +75,7 @@ export default function Home() {
 
         <a
           href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-          className="group text-left rounded-lg border border-transparent px-5 py-4 transition-colors bg-yellow-300  text-neutral-900  hover:border-yellow-600 hover:bg-yellow-200"
+          className="group text-left rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-neutral-600 bg-neutral-200/60"
           target="_blank"
           rel="noopener noreferrer"
         >
