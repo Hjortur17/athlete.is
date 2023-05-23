@@ -18,7 +18,7 @@ export default function Home() {
 
       <div className="grid gap-6 text-center lg:grid-cols-3 w-full max-w-screen-xl mx-auto pb-12">
         <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
+          href="https://greidslusida.valitor.is/Tengill/zb5c7f"
           className="group text-left rounded-lg border-2 border-transparent px-5 py-4 transition-colors hover:border-neutral-600 bg-neutral-200/60"
           target="_blank"
           rel="noopener noreferrer"
@@ -49,32 +49,7 @@ export default function Home() {
         </a>
 
         <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-          className="group text-left rounded-lg border-2 border-transparent px-5 py-4 transition-colors hover:border-neutral-600 bg-neutral-200/60"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-bold`}>
-            Mælingar (2 skipti){' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <h2 className={`mb-3 text-3xl font-black`}>
-          13.990kr.
-          </h2>
-          <ul className={`mx-5 list-disc max-w-[30ch] text-sm`}>
-            <li className='font-semibold'>Mælingar fyrir og eftir sumar</li>
-            <ul className='list-disc list-inside opacity-80'>
-              <li>Stökkkraftur</li>
-              <li>Sprengikraftur í efri líkama</li>
-              <li>Þyngd og fitumæling</li>
-            </ul>
-          </ul>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
+          href="https://greidslusida.valitor.is/Tengill/u5y8b5"
           className="group text-left rounded-lg border-2 border-transparent px-5 py-4 transition-colors hover:border-neutral-600 bg-neutral-200/60"
           target="_blank"
           rel="noopener noreferrer"
@@ -94,6 +69,31 @@ export default function Home() {
             <ul className='list-disc list-inside opacity-80'>
               <li>Æfingar, upplýsingar og video</li>
               <li>Niðurstöður mælinga</li>
+            </ul>
+          </ul>
+        </a>
+
+        <a
+          href="https://greidslusida.valitor.is/Tengill/7bes5g"
+          className="group text-left rounded-lg border-2 border-transparent px-5 py-4 transition-colors hover:border-neutral-600 bg-neutral-200/60"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <h2 className={`mb-3 text-2xl font-bold`}>
+            Mælingar (1 skipti){' '}
+            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
+              -&gt;
+            </span>
+          </h2>
+          <h2 className={`mb-3 text-3xl font-black`}>
+          7.990kr.
+          </h2>
+          <ul className={`mx-5 list-disc max-w-[30ch] text-sm`}>
+            <li className='font-semibold'>Mæling</li>
+            <ul className='list-disc list-inside opacity-80'>
+              <li>Stökkkraftur</li>
+              <li>Sprengikraftur í efri líkama</li>
+              <li>Þyngd og fitumæling</li>
             </ul>
           </ul>
         </a>
