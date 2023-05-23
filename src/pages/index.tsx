@@ -13,7 +13,6 @@ export default function Home() {
 
       <div className="relative max-w-3xl mx-auto text-center space-y-6 my-12 md:my-24 xl:my-0">
         <h2 className='text-5xl xl:text-6xl 2xl:text-7xl font-black'>Náðu lengra í þinni íþrótt!</h2>
-        <p className='text-2xl 2xl:text-3xl font-light'>Við hjálpum þér að ná lengra <br /> í átt að þínum markmiðum</p>
       </div>
 
       <div className="grid gap-6 text-center lg:grid-cols-3 w-full max-w-screen-xl mx-auto pb-12">
