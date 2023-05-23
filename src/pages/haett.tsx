@@ -9,7 +9,7 @@ export default function Cancelled() {
       className={`flex min-h-screen flex-col items-center text-neutral-900 px-6 xl:px-0 justify-between ${inter.className} bg-neutral-50`}
     >
       <div className="w-full max-w-screen-xl mx-auto pt-12 flex items-center justify-between">
-        <h1 className="text-xl xl:text-2xl 2xl:text-3xl font-extrabold">Athlete.is</h1>
+        <h1 className="text-xl xl:text-2xl 2xl:text-3xl font-extrabold">athlete.is</h1>
         <Link href="/" className="text-sm xl:text-lg">Aftur heim</Link>
       </div>
 
