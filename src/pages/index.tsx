@@ -8,11 +8,11 @@ export default function Home() {
       className={`flex min-h-screen flex-col items-center text-neutral-900 px-6 xl:px-0 justify-between ${inter.className} bg-neutral-50`}
     >
       <div className="w-full max-w-screen-xl mx-auto pt-12">
-        <h1 className="text-xl xl:text-2xl 2xl:text-3xl font-extrabold">Athlete.is</h1>
+        <h1 className="text-xl xl:text-2xl 2xl:text-3xl font-extrabold">athlete.is</h1>
       </div>
 
       <div className="relative max-w-3xl mx-auto text-center space-y-6 my-12 md:my-24 xl:my-0">
-        <h2 className='text-5xl xl:text-6xl 2xl:text-7xl font-black'>Byrjaðu í dag að ná betri árángri!</h2>
+        <h2 className='text-5xl xl:text-6xl 2xl:text-7xl font-black'>Náðu lengra í þinni íþrótt!</h2>
         <p className='text-2xl 2xl:text-3xl font-light'>Við hjálpum þér að ná lengra <br /> í átt að þínum markmiðum</p>
       </div>
 
@@ -68,7 +68,6 @@ export default function Home() {
             <li className='font-semibold'>Aðgangur að appi með:</li>
             <ul className='list-disc list-inside opacity-80'>
               <li>Æfingar, upplýsingar og video</li>
-              <li>Niðurstöður mælinga</li>
             </ul>
           </ul>
         </a>
