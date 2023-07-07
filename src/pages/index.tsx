@@ -1,4 +1,5 @@
 import { Inter } from 'next/font/google'
+import Link from 'next/link'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -7,8 +8,9 @@ export default function Home() {
     <main
       className={`flex min-h-screen flex-col items-center text-neutral-900 px-6 xl:px-0 justify-between ${inter.className} bg-neutral-50`}
     >
-      <div className="w-full max-w-screen-xl mx-auto pt-12">
+      <div className="w-full max-w-screen-xl mx-auto pt-12 flex items-center justify-between">
         <h1 className="text-xl xl:text-2xl 2xl:text-3xl font-extrabold">athlete.is</h1>
+        <Link href="/skilmalar" className="text-sm xl:text-lg">Skilmálar</Link>
       </div>
 
       <div className="relative max-w-3xl mx-auto text-center space-y-6 my-12 md:my-24 xl:my-0">
