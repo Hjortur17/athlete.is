@@ -36,11 +36,15 @@ export default function Terms() {
         </div>
         <div>
             <h2 className='text-xl xl:text-2xl 2xl:text-3xl font-black'>6. Kvartanir</h2>
-            <p className='text-lg font-light'>Hafi viðskiptamenn okkar einhverjar athugasemdir eða kvartanir varðandi þjónustuna geta þeir beint erindi til þess starfsmanns sem veitir þjónustuna eða skriflega á netfangið daniel@dfthjalfun.is. Við tökum allar ábendingar og kvartanir alvarlega og reynum að tryggja að slík erindi fái skjóta, skilvirka og sanngjarna afgreiðslu.</p>
+            <p className='text-lg font-light'>Hafi viðskiptamenn okkar einhverjar athugasemdir eða kvartanir varðandi þjónustuna geta þeir beint erindi til þess starfsmanns sem veitir þjónustuna eða skriflega á netfangið adameidur@gmail.com. Við tökum allar ábendingar og kvartanir alvarlega og reynum að tryggja að slík erindi fái skjóta, skilvirka og sanngjarna afgreiðslu.</p>
         </div>
         <div>
             <h2 className='text-xl xl:text-2xl 2xl:text-3xl font-black'>7. Lögsaga Og Varnarþing</h2>
-            <p className='text-lg font-light'>Um skilmálana og annað það sem heyrir undir þjónustu okkar gilda íslensk lög. Ágreining sem kann að rísa milli DF þjálfunar og viðskiptamanna þess skulu aðilar leitast við að leysa með samkomulagi. Ef ekki næst samkomulag skulu ágreiningsmál rekin fyrir héraðsdómi Reykjaness.</p>
+            <p className='text-lg font-light'>Um skilmálana og annað það sem heyrir undir þjónustu okkar gilda íslensk lög. Ágreining sem kann að rísa milli athlete.is og viðskiptamanna þess skulu aðilar leitast við að leysa með samkomulagi. Ef ekki næst samkomulag skulu ágreiningsmál rekin fyrir héraðsdómi Reykjaness.</p>
+        </div>
+        <div>
+            <h2 className='text-xl xl:text-2xl 2xl:text-3xl font-black'>8. Trúnaður</h2>
+            <p className='text-lg font-light'>Allar persónulegar upplýsingar viðskiptavina athlete.is eru varðveittar og ber athlete.is að halda algjörum trúnaði með allar persónulegar upplýsingar viðskiptavina.</p>
         </div>
         <div>
             <h2 className='text-xl xl:text-2xl 2xl:text-3xl font-black'>athlete.is</h2>
