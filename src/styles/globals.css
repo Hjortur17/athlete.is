@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.askell-payment-button {
+  background-image: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  text-align: left !important;
+  text-transform: none !important;
+  background-size: auto !important;
+  color: white !important;
+  box-shadow: none !important;
+  border-radius: 0% !important;
+  border: 0 !important;
+}
+
+.button {
+  @apply !mt-6 !block !rounded-md !py-2 !w-1/3 !text-center !text-sm !font-semibold !leading-6 focus-visible:!outline focus-visible:!outline-2 focus-visible:!outline-offset-2 focus-visible:!outline-red-600 !bg-red-600 !text-white !shadow-sm hover:!bg-red-500 ease-in-out duration-300;  
+}
