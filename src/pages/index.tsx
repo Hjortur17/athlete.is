@@ -1,7 +1,7 @@
 import React from "react";
 import { CheckIcon } from "@heroicons/react/20/solid";
 
-import Script from 'next/script'
+import Script from "next/script";
 import Link from "next/link";
 
 const tiers = [
@@ -51,9 +51,8 @@ export default function Home() {
           </h1>
         </div>
         <p className="mx-auto mt-6 max-w-2xl text-center text-lg leading-8 text-gray-600">
-          Æfingarprógröm svo þú náir lengra í þinni íþrótt! Allar æfingarnar og
-          myndbönd aðgengilegar í snjallasíma og beint samband við þjálfara í
-          gegnum smáforrit.
+          Æfingaplan sem hjálpar þér að ná betri árangri! Allar æfingar og
+          myndbönd aðgengilegar í smáforriti og beint samband við þjálfara.
         </p>
         <Link
           href="/skilmalar"
@@ -69,7 +68,7 @@ export default function Home() {
                 tier.mostPopular
                   ? "ring-2 ring-red-600"
                   : "ring-1 ring-gray-200",
-                "rounded-3xl p-8 xl:p-10"
+                "rounded-3xl p-8 xl:p-10 first:order-last  md:first:order-first"
               )}
             >
               <div className="flex items-center justify-between gap-x-4">
