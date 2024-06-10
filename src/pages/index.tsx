@@ -6,6 +6,22 @@ import Link from "next/link";
 
 const tiers = [
   {
+    name: "YOUTH athlete",
+    id: "youth-athlete",
+    key: "eyJhY2NvdW50Ijo2NywicGxhbiI6Mzg4LCJicmFuZGluZyI6dHJ1ZX0=",
+    price: "4.990 kr.",
+    features: [
+      "Mánaðarleg áskrift",
+      "Æfingakerfi hannað til að byggja grunn fyrir þig til að ná langt í íþróttinni þinni",
+      "3 styrktaræfingar á viku",
+      "3 körfuboltaæfingar á viku",
+      "Æfingaplanið er uppfært á 4 vikna fresti",
+      "Þú færð æfingar og myndbönd beint í símann með smáforriti",
+      "Samskipti við þjálfara í smáforriti",
+    ],
+    mostPopular: false,
+  },
+  {
     name: "HYGGE athlete",
     id: "hygge-athlete",
     key: "eyJhY2NvdW50Ijo2NywicGxhbiI6MzAxLCJicmFuZGluZyI6dHJ1ZX0=",
@@ -29,6 +45,7 @@ const tiers = [
       "Mánaðarleg áskrift",
       "Æfingakerfi hannað til að gera þig ELITE í þinni íþrótt!",
       "5 styrktaræfingar á viku",
+      "3 körfuboltaæfingar á viku",
       "Æfingaplanið er uppfært á 3 vikna fresti",
       "Þú færð æfingar og myndbönd beint í símann með smáforriti",
       "Samskipti við þjálfara í smáforriti",
@@ -56,11 +73,11 @@ export default function Home() {
         </p>
         <Link
           href="/skilmalar"
-          className="text-sm xl:text-lg text-gray-600 absolute right-0 -top-20"
+          className="text-sm xl:text-lg text-gray-600 absolute right-6 xl:right-0 -top-20"
         >
           Skilmálar
         </Link>
-        <div className="isolate mx-auto mt-10 grid max-w-md grid-cols-1 gap-8 lg:max-w-4xl lg:grid-cols-2">
+        <div className="isolate mx-auto mt-10 grid max-w-md grid-cols-1 gap-8 lg:max-w-7xl lg:grid-cols-3">
           {tiers.map((tier) => (
             <div
               key={tier.id}
