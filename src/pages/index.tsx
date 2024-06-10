@@ -45,7 +45,7 @@ const tiers = [
       "Mánaðarleg áskrift",
       "Æfingakerfi hannað til að gera þig ELITE í þinni íþrótt!",
       "5 styrktaræfingar á viku",
-      "3 körfuboltaæfingar á viku",
+      "5 körfuboltaæfingar á viku",
       "Æfingaplanið er uppfært á 3 vikna fresti",
       "Þú færð æfingar og myndbönd beint í símann með smáforriti",
       "Samskipti við þjálfara í smáforriti",
