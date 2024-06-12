@@ -6,6 +6,21 @@ import Link from "next/link";
 
 const tiers = [
   {
+    name: "HYGGE athlete",
+    id: "hygge-athlete",
+    key: "eyJhY2NvdW50Ijo2NywicGxhbiI6MzAxLCJicmFuZGluZyI6dHJ1ZX0=",
+    price: "3.990 kr.",
+    features: [
+      "Mánaðarleg áskrift",
+      "Æfingakerfi hannað til að halda þér “athletic” að eilífu!",
+      "5 styrktaræfingar á viku",
+      "Æfingaplanið er uppfært á 4 vikna fresti",
+      "Þú færð æfingar og myndbönd beint í símann með smáforriti",
+      "Samskipti við þjálfara í smáforriti",
+    ],
+    mostPopular: false,
+  },
+  {
     name: "YOUTH athlete",
     id: "youth-athlete",
     key: "eyJhY2NvdW50Ijo2NywicGxhbiI6Mzg4LCJicmFuZGluZyI6dHJ1ZX0=",
@@ -15,21 +30,6 @@ const tiers = [
       "Æfingakerfi hannað til að byggja grunn fyrir þig til að ná langt í íþróttinni þinni",
       "3 styrktaræfingar á viku",
       "3 körfuboltaæfingar á viku",
-      "Æfingaplanið er uppfært á 4 vikna fresti",
-      "Þú færð æfingar og myndbönd beint í símann með smáforriti",
-      "Samskipti við þjálfara í smáforriti",
-    ],
-    mostPopular: false,
-  },
-  {
-    name: "HYGGE athlete",
-    id: "hygge-athlete",
-    key: "eyJhY2NvdW50Ijo2NywicGxhbiI6MzAxLCJicmFuZGluZyI6dHJ1ZX0=",
-    price: "3.990 kr.",
-    features: [
-      "Mánaðarleg áskrift",
-      "Æfingakerfi hannað til að halda þér “athletic” að eilífu!",
-      "5 styrktaræfingar á viku",
       "Æfingaplanið er uppfært á 4 vikna fresti",
       "Þú færð æfingar og myndbönd beint í símann með smáforriti",
       "Samskipti við þjálfara í smáforriti",
